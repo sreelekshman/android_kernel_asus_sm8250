@@ -41,6 +41,7 @@ static struct kobj_attribute mounter_context_for_backing_rw_attr =
 
 static struct attribute *attributes[] = {
 	&corefs_attr.attr,
+	&bugfix_inode_eviction_attr.attr,
 	&mounter_context_for_backing_rw_attr.attr,
 	NULL,
 };
